@@ -2,17 +2,24 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 body {
-  background: #000;
+  background: #FFEDAF;
   position: relative;
 }
-
+p{
+  color: black;
+}
+h1 {
+  color: black;
+}
 .profile-link {
-  color: #019cdc;
+  color: #dc011e;
   font-size: 12px;
   display: block;
+  text-decoration: none;
 }
 
 .link-heading {
@@ -22,11 +29,11 @@ body {
 
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: #4dc043;
 }
 
 a:visited {
-  color: #f58428;
+  color: #dc011e;
 }
 
 .outer {
@@ -123,15 +130,15 @@ a:visited {
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #d10101;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #15b17d;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #0160dc;
 }
 
 .details {
